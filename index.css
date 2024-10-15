@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(251, 243, 235);
+}
+
+nav>ul {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+    gap: 30px;
+    font-weight: bold;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+li :hover {
+    border-bottom: 2px solid violet;
+
+}
+
+.banner {
+    text-align: start;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: rgb(226, 43, 174);
+}
+
+#hero {
+    height: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, #101010 -19.5%, rgba(16, 16, 16, 0.00) 100%), url('./Resources/assets/hero-bg.png');
+}
+
+#hero .hero-container {
+    width: 685px;
+
+}
+
+#hero .hero-container .sub-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+#hero .hero-container .title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+#hero .hero-container .descript {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: 0.8;
+    margin-bottom: 32px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    line-height: normal;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #52C303;
+}
+
+.btn-container {
+    text-align: center;
+
+}
